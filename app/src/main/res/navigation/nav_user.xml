@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_user"
+    app:startDestination="@id/home_fragment">
+
+    <fragment
+        android:id="@+id/home_fragment"
+        android:name="com.quviservicestechnician.ui.fragment.home.HomeFragment"
+        android:label="@string/select_service"
+        tools:layout="@layout/fragment_home2">
+        <action
+            android:id="@+id/action_home_fragment_to_booking_details"
+            app:destination="@id/booking_details" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_booking"
+        android:name="com.quviservicestechnician.ui.fragment.booking.BookingFragment"
+        android:label="My Booking"
+        tools:layout="@layout/fragment_booking">
+        <action
+            android:id="@+id/action_nav_booking_to_nav_inprogress_fragment"
+            app:destination="@id/nav_inprogress_fragment" />
+        <action
+            android:id="@+id/action_nav_booking_to_nav_complete_booking_details"
+            app:destination="@id/nav_complete_booking_details" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_earning"
+        android:name="com.quviservicestechnician.ui.fragment.earning.EarningFragment"
+        android:label="Earning Fragment"
+        tools:layout="@layout/fragment_earning" />
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.quviservicestechnician.ui.fragment.my_profile.ProfileFragment"
+        android:label="Profile Fragment"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/booking_details"
+        android:name="com.quviservicestechnician.ui.fragment.serviceBookingDetails.ServiceDetailsFragment"
+        android:label="Details"
+        tools:layout="@layout/fragment_service_details">
+        <argument
+            android:name="data"
+            android:defaultValue="@null"
+            app:argType="com.quviservicestechnician.data.response.NewBookingDetailsResponse"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_inprogress_fragment"
+        android:name="com.quviservicestechnician.ui.fragment.booking.inprogress.InProgressBookingFragment"
+        android:label="@string/booking_details"
+        tools:layout="@layout/fragment_in_progress_booking">
+        <argument
+            android:name="data"
+            android:defaultValue="@null"
+            app:argType="com.quviservicestechnician.data.response.InprogresCompleteResponse"
+            app:nullable="true" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_complete_booking_details"
+        android:name="com.quviservicestechnician.ui.fragment.booking.complete.CompleteBookingFragment"
+        android:label="@string/booking_details"
+        tools:layout="@layout/fragment_complete_booking" />
+
+
+</navigation>

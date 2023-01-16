@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_auth_login"
+    app:startDestination="@id/user_Profile_Fragment">
+
+
+    <fragment
+        android:id="@+id/user_Profile_Fragment"
+        android:name="com.quviservicestechnician.ui.fragment.profile.User_Profile_Fragment"
+        android:label="fragment_user__profile_"
+        tools:layout="@layout/fragment_user__profile_" >
+        <action
+            android:id="@+id/action_user_Profile_Fragment_to_nav_service_fragment"
+            app:destination="@id/nav_service_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_service_fragment"
+        android:name="com.quviservicestechnician.ui.fragment.service.ServiceFragment"
+        android:label="fragment_service"
+        tools:layout="@layout/fragment_service" />
+
+
+</navigation>

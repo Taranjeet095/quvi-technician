@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Quvi Services Technician</string>
+    <string name="hello">Hello,\nLogin to continue</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="login">Login</string>
+    <string name="or">OR</string>
+    <string name="google">Google</string>
+    <string name="facebook">Facebook</string>
+    <string name="verify_desc">Enter the 4 digit code has been sent to</string>
+    <string name="submit">Submit</string>
+    <string name="resend_otp">Resend OTP</string>
+    <string name="edit_account">Edit Account</string>
+    <string name="add_details">Add Details</string>
+    <string name="select_service">Select Service</string>
+    <string name="details">Details</string>
+    <string name="booking_details">Booking Details</string>
+    <string name="change_profile_picture">Change Profile Picture</string>
+    <string name="upload_photo">+ Upload Photo</string>
+    <string name="full_name">Full Name</string>
+    <string name="sub_title">Sub Title</string>
+    <string name="email">Email</string>
+    <string name="country">Country</string>
+    <string name="profession">Profession</string>
+    <string name="hobbies">Hobbies</string>
+    <string name="title_activity_dashboard">DashboardActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="manage_address">Manage Address</string>
+    <string name="my_wallet">My Wallet</string>
+    <string name="settings">Setting</string>
+    <string name="help">Help</string>
+    <string name="logout">Logout</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

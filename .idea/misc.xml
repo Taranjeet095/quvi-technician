@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/drawable-v24/complete_bg.xml" value="0.121" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/drawable-v24/ic_drop_down.xml" value="0.12" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/drawable-v24/rect_round_black.xml" value="0.121" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/drawable-v24/rect_round_black_bottom_bg.xml" value="0.121" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/drawable-v24/rect_round_bottom_bg.xml" value="0.121" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/drawable-v24/rect_round_stroke_grey.xml" value="0.12" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/drawable/border_gray_round.xml" value="0.121" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/drawable/bottom_navigation_selector.xml" value="0.2265" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/drawable/dotted.xml" value="0.12" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/drawable/gender_icon.xml" value="0.121" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/drawable/gray_background.xml" value="0.182" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/drawable/ic_baseline_booking.xml" value="0.2265" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/drawable/ic_baseline_calendar_today_24.xml" value="0.121" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/drawable/ic_baseline_earning.xml" value="0.2265" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/drawable/ic_baseline_keyboard_arrow_down.xml" value="0.121" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/drawable/ic_baseline_keyboard_arrow_right.xml" value="0.121" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/drawable/ic_baseline_monetization_on_24.xml" value="0.121" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/drawable/ic_baseline_profile.xml" value="0.2265" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/drawable/ic_baseline_work_24.xml" value="0.121" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/drawable/ic_direction.xml" value="0.121" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/drawable/ic_home_24.xml" value="0.2265" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/drawable/ic_home_black_24dp.xml" value="0.121" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/drawable/ic_image_bg.xml" value="0.121" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.121" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/drawable/in_progress_bg.xml" value="0.12" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/drawable/rect_round_top_bg.xml" value="0.121" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/drawable/round_bg.xml" value="0.12" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/layout-v23/activity_home.xml" value="0.10989583333333333" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/layout/activity_dashboard.xml" value="0.25" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/layout/activity_home.xml" value="0.136" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/layout/activity_main.xml" value="0.10989583333333333" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/layout/activity_profile.xml" value="0.10989583333333333" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/layout/activity_splash.xml" value="0.10989583333333333" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/layout/complete_booking_row_list.xml" value="0.1" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/layout/dialog_camera_gallery.xml" value="0.1234375" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/layout/dialog_yes_no.xml" value="0.1234375" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/layout/fragment_.xml" value="0.10989583333333333" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/layout/fragment_booking.xml" value="0.1234375" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/layout/fragment_complete_booking.xml" value="0.264" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/layout/fragment_dashboard.xml" value="0.10989583333333333" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/layout/fragment_home.xml" value="0.10989583333333333" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/layout/fragment_home2.xml" value="0.10989583333333333" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/layout/fragment_in_progress_booking.xml" value="0.1" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/layout/fragment_login.xml" value="0.10989583333333333" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/layout/fragment_notifications.xml" value="0.10989583333333333" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/layout/fragment_profile.xml" value="0.264" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/layout/fragment_service.xml" value="0.10989583333333333" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/layout/fragment_service_details.xml" value="0.2" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/layout/fragment_status_dialog.xml" value="0.109375" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/layout/fragment_user__profile_.xml" value="0.16" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/layout/fragment_verify_o_t_p.xml" value="0.10989583333333333" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/layout/inprogress_booking_row_list.xml" value="0.10989583333333333" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/layout/new_booking_service_row_list.xml" value="0.4" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/layout/pending_booking_row_list.xml" value="0.1234375" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/layout/service_row_list.xml" value="0.2" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/menu/bottom_nav_menu.xml" value="0.10989583333333333" />
+        <entry key="..\:/quviServicesTechnician/app/src/main/res/menu/nav_menu.xml" value="0.10989583333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

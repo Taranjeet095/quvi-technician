@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fillViewport="true"
+    android:fitsSystemWindows="false"
+    tools:context=".ui.fragment.otp.VerifyOTPFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="@dimen/_45sdp"
+            android:layout_height="@dimen/_45sdp"
+            android:layout_marginStart="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_70sdp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/app_logo" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/top_corner_img" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_greeting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_35sdp"
+            android:fontFamily="@font/worksans_semibold"
+            android:text="Verify Account"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20ssp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/iv_logo" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_12sdp"
+            android:fontFamily="@font/worksans_medium"
+            android:text="@string/verify_desc"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12ssp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_greeting" />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_3sdp"
+            android:fontFamily="@font/worksans_medium"
+            tools:text="+91 9868675675"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_12ssp"
+            android:gravity="center"
+            android:drawablePadding="@dimen/_5sdp"
+            android:drawableEnd="@drawable/ic_edit"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_desc" />
+
+
+<!--        <in.aabhasjindal.otptextview.OtpTextView-->
+<!--            android:id="@+id/otp_view"-->
+<!--            app:layout_constraintStart_toStartOf="parent"-->
+<!--            app:layout_constraintEnd_toEndOf="parent"-->
+<!--            app:layout_constraintBottom_toTopOf="@id/tv_submit"-->
+<!--            app:layout_constraintTop_toBottomOf="@id/tv_phone"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:textColor="@color/black"-->
+<!--            app:height="@dimen/_50sdp"-->
+<!--            app:width="@dimen/_50sdp"-->
+<!--            app:otp_box_background="@drawable/rect_round_stroke_black"-->
+<!--            app:text_typeface="@font/worksans_medium"-->
+<!--            app:length="4"-->
+<!--            app:otp_text_size="@dimen/sp_14"/>-->
+
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_submit"
+            android:layout_marginBottom="@dimen/_10sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_25sdp"
+            android:layout_marginTop="@dimen/_22sdp"
+            android:background="@drawable/rect_round_black"
+            android:fontFamily="@font/worksans_medium"
+            android:gravity="center"
+            android:padding="@dimen/_12sdp"
+            android:text="@string/submit"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_14ssp"
+            app:layout_constraintBottom_toTopOf="@id/tv_resend"
+            />
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tv_resend"
+            android:layout_marginBottom="@dimen/_55sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_26sdp"
+            android:layout_marginTop="@dimen/_22sdp"
+            android:background="@drawable/rect_round_stroke_black"
+            android:fontFamily="@font/worksans_medium"
+            android:gravity="center"
+            android:padding="@dimen/_12sdp"
+            android:text="@string/resend_otp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_14ssp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
